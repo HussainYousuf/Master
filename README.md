@@ -1,1 +1,1 @@
-Some repos are private
+Some of my repos are private
