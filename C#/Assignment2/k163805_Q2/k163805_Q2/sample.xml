@@ -1,0 +1,7 @@
+<EmailMessage>
+	<To>k163805@nu.edu.pk</To>
+	<Subject>Sample Subject</Subject>
+	<MessageBody>
+		Sample Message Changed
+	</MessageBody>
+</EmailMessage>

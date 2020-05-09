@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    </head>
+    <body>
+
+    <script>
+        function redirect(){
+            if(document.getElementById("name").value && document.getElementById("id").value){
+                var name = document.getElementById("name").value.trim();
+                var id = document.getElementById("id").value.trim();
+                localStorage.name = name;
+                localStorage.id = id;
+                window.location = "/chat";
+            }else{
+                alert("Please enter all valid info");
+            }
+        }
+    </script>
+
+        <div class="container text-center">
+            <div class="page-header">
+                <h1>Login</h1>
+            </div>
+            <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input id="name" required type="text" placeholder="Enter your name" style="padding:10px; border:none; border-bottom:solid 2px #c9c9c9; transition:border 0.3s; width:100%"/>
+                    </div>
+                    <br><br>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input id="id" required type="text" placeholder="Enter your group" style="padding:10px; border:none; border-bottom:solid 2px #c9c9c9; transition:border 0.3s; width:100%"/>
+                    </div>
+                    <br><br><br>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input onclick="redirect()" type="submit" value="Login" class="btn btn-lg btn-primary"/>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

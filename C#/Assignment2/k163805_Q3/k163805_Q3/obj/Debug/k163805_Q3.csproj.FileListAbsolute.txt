@@ -1,0 +1,8 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\bin\Debug\k163805_Q3.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\bin\Debug\k163805_Q3.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\bin\Debug\k163805_Q3.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\obj\Debug\k163805_Q3.csprojResolveAssemblyReference.cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\obj\Debug\k163805_Q3.ProjectInstaller.resources
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\obj\Debug\k163805_Q3.csproj.GenerateResource.Cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\obj\Debug\k163805_Q3.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q3\k163805_Q3\obj\Debug\k163805_Q3.pdb

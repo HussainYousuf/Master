@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="chat.js"></script>
+
+    <style>
+
+        @font-face {
+            font-family: BlissMedium;
+            src: url("BlissMedium.ttf") format('truetype');
+        }
+
+        body
+        {
+            padding:0;
+            margin:0;
+            letter-spacing: 1px;
+            font: 11pt BlissMedium, sans-serif, sans, Georgia, serif;
+            color: #293239;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+
+        .container-full
+        {
+         margin: 0 0;
+         width: 100%;
+         overflow-x: hidden;
+        }
+
+        .message-bubble
+        {
+            padding: 0px 10px 0px 10px;
+        }
+
+
+        .custom
+        {
+            width:100%;
+            margin:0;
+            height: -webkit-calc(100vh - 83px);
+            height: -moz-calc(100vh - 83px);
+            height: calc(100vh - 83px);
+            height: -o-calc(100vh - 83px);
+            overflow-y:scroll;
+        }
+
+        .panel-body
+        {
+            padding: 0px;
+        }
+
+        .panel-heading
+         {
+             width:5000px;
+             font-size:16pt;
+             margin-left:-5px;
+             margin-top:-5px;
+             background: #293239;
+             color: #fff;
+             overflow-x: hidden;
+             padding:10px;
+             padding-left:15px;
+             padding-top:15px;
+         }
+
+        .text-muted
+        {
+           letter-spacing: 0px;
+           color:black;
+           font-size:12pt;
+           margin-bottom:10px;
+        }
+
+         .chat-time
+         {
+            letter-spacing: 0px;
+	        float: right;
+	        font-size: 11pt;
+	        color:black;
+         }
+
+         #fileupload-example-4 {
+            height: 0;
+            width: 0;
+         }
+
+        <!--#fileupload-example-4-label {-->
+            <!--border: 1px solid #cccccc;-->
+
+            <!--font-size:16pt;-->
+        <!--}-->
+
+
+    </style>
+
+
+    <title>Welcome to Chat</title>
+</head>
+<body onload="connect()" onunload="disconnect()">
+    <div class="container-fluid container-full">
+        <div class="row">
+            <div class="panel">
+                <div class="panel-heading" id="heading"></div>
+                <div class="panel-body">
+                    <div class="container-fluid custom" id="history">
+                        <hr>
+                    </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Type message here" id="message" onkeypress="if (event.keyCode == 13) sendMessage();"/>
+                            <form action="/form" ENCTYPE="multipart/form-data" method="POST" name="wibble" class="input-group-btn">
+                                <span class="input-group-btn">
+                                    <input type="file" id="fileupload-example-4" name="myfile" onchange="getFileData(this);" />
+                                    <label id="fileupload-example-4-label" class="btn btn-default btn-file" for="fileupload-example-4">upload</label>
+                                </span>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

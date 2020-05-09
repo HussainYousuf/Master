@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <input type="file" multiple id="fileInput"/>
+    <button onclick="startUpload();">Upload</button>
+</body>
+
+<script>
+
+function startUpload() {
+
+	var fileInput = document.getElementById("fileInput");
+
+    if (fileInput.files.length == 0) {
+        alert("Please choose a file");
+        return;
+    }
+
+	for(var i=0;i<fileInput.files.length;i++){
+		var xhr = new XMLHttpRequest();
+	    xhr.open("POST", "/uploads", false);
+	    xhr.setRequestHeader("My-Content-Length", fileInput.files[i].size);
+	    xhr.setRequestHeader("My-File-Name", fileInput.files[i].name.replace(/[^\x00-\x7F]/g, ""));
+	    xhr.send(fileInput.files[i]); 
+	    console.log("sent file");
+    }
+    alert("uploading done");
+    location.reload(true);
+    
+}
+
+</script>
+
+</html>

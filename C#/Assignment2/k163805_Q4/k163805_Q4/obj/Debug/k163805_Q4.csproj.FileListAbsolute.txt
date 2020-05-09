@@ -1,0 +1,9 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\bin\Debug\k163805_Q4.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\bin\Debug\k163805_Q4.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\bin\Debug\k163805_Q4.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.ProjectInstaller.resources
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.csproj.GenerateResource.Cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.k163805_Q4.resources
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q4\k163805_Q4\obj\Debug\k163805_Q4.csprojResolveAssemblyReference.cache

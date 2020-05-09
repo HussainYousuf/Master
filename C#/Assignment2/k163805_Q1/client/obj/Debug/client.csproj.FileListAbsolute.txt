@@ -1,0 +1,5 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\client\bin\Debug\client.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\client\bin\Debug\client.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\client\bin\Debug\client.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\client\obj\Debug\client.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\client\obj\Debug\client.pdb

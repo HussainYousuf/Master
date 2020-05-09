@@ -1,0 +1,70 @@
+﻿Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Rolling back assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Restoring event log to previous state for source Service1.
+Uninstalling assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+Installing service k163805_Q5a...
+Service k163805_Q5a has been successfully installed.
+Creating EventLog source k163805_Q5a in log Application...
+Committing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe

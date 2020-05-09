@@ -1,0 +1,6 @@
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\bin\Debug\k163805_Q6.exe.config
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\bin\Debug\k163805_Q6.exe
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\bin\Debug\k163805_Q6.pdb
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\obj\Debug\k163805_Q6.csprojResolveAssemblyReference.cache
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\obj\Debug\k163805_Q6.exe
+c:\users\hussain\documents\visual studio 2013\Projects\k163805_Q6\k163805_Q6\obj\Debug\k163805_Q6.pdb

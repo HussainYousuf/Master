@@ -1,0 +1,9 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\bin\Debug\k163805_Q2.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\bin\Debug\k163805_Q2.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\bin\Debug\k163805_Q2.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.csprojResolveAssemblyReference.cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.Properties.Resources.resources
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.csproj.GenerateResource.Cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q2\k163805_Q2\obj\Debug\k163805_Q2.Form1.resources

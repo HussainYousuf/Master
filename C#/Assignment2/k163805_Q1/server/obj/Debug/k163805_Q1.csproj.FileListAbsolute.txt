@@ -1,0 +1,6 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\bin\Debug\k163805_Q1.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\obj\Debug\k163805_Q1.csprojResolveAssemblyReference.cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\bin\Debug\k163805_Q1.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\bin\Debug\k163805_Q1.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\obj\Debug\k163805_Q1.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q1\k163805_Q1\obj\Debug\k163805_Q1.pdb

@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.exe
+Installing service k163805_Q5b...
+Service k163805_Q5b has been successfully installed.
+Creating EventLog source k163805_Q5b in log Application...
+Committing assembly 'C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.InstallLog
+   assemblypath = C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_b\k163805_Q5_b\bin\Debug\k163805_Q5_b.exe

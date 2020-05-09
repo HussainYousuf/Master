@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminController">
+  <tabs>
+      <Tab text="Notifications">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="notificationListView" layoutX="238.0" layoutY="86.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Button layoutX="400.0" layoutY="689.0" mnemonicParsing="false" onAction="#onBack" prefHeight="25.0" prefWidth="183.0" text="GO BACK" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="689.0" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+    <Tab fx:id="custTab" onSelectionChanged="#onTabChange" text="show customers">
+         <content>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <TableView fx:id="custTable" prefHeight="200.0" prefWidth="200.0" style="-fx-cell-size: 100px;" BorderPane.alignment="CENTER" />
+               </center>
+               <top>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ListView fx:id="listView" layoutX="80.0" prefHeight="200.0" prefWidth="269.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="755.0" AnchorPane.topAnchor="0.0" />
+                        <ListView fx:id="listView2" layoutX="412.0" prefHeight="200.0" prefWidth="284.0" />
+                        <Button layoutX="308.0" layoutY="47.0" mnemonicParsing="false" onAction="#onRemove" text="move -&gt;" />
+                        <Button layoutX="307.0" layoutY="88.0" mnemonicParsing="false" onAction="#onAdd" text="&lt;- move " />
+                        <Button layoutX="314.0" layoutY="128.0" mnemonicParsing="false" onAction="#onShow" text="filter" />
+                        <TextField fx:id="searchQuery" layoutX="733.0" layoutY="35.0" prefHeight="25.0" prefWidth="260.0" />
+                        <Button layoutX="817.0" layoutY="88.0" mnemonicParsing="false" onAction="#onSearch" text="Execute Query" />
+                     </children>
+                  </AnchorPane>
+               </top>
+            </BorderPane>
+         </content>
+    </Tab>
+    <Tab fx:id="transactionTab" onSelectionChanged="#onTabChange" text="transactions">
+         <content>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <TableView fx:id="transactionTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </content>
+    </Tab>
+      <Tab fx:id="loanTab" onSelectionChanged="#onTabChange" text="Loans">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="loanTable" layoutX="365.0" layoutY="152.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab fx:id="accountTab" onSelectionChanged="#onTabChange" text="Accounts And Branch">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="bname" layoutX="369.0" layoutY="45.0" prefHeight="31.0" prefWidth="294.0" />
+                  <Label layoutX="158.0" layoutY="47.0" prefHeight="27.0" prefWidth="194.0" text="Enter Branch Name :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="710.0" layoutY="45.0" mnemonicParsing="false" onAction="#onAddBranch" prefHeight="31.0" prefWidth="124.0" text="Add" />
+                  <TableView fx:id="accountTable" layoutX="269.0" layoutY="238.0" prefHeight="583.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab fx:id="editTab" text="Edit">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="49.0" text="First Name:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="473.0" layoutY="46.0" text="Last Name:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="239.0" text="Phone:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="147.0" text="Email:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="644.0" layoutY="239.0" prefHeight="51.0" prefWidth="101.0" text="DOB:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="12.0" layoutY="320.0" text="Address:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fname" layoutX="206.0" layoutY="47.0" prefHeight="46.0" prefWidth="246.0" />
+                  <TextField fx:id="lname" layoutX="652.0" layoutY="51.0" prefHeight="46.0" prefWidth="300.0" />
+                  <TextField fx:id="email" layoutX="115.0" layoutY="150.0" prefHeight="46.0" prefWidth="453.0" />
+                  <TextField fx:id="phone" layoutX="150.0" layoutY="241.0" prefHeight="46.0" prefWidth="456.0" />
+                  <TextField fx:id="address" layoutX="150.0" layoutY="323.0" prefHeight="46.0" prefWidth="797.0" />
+                  <Label layoutX="14.0" layoutY="413.0" text="M.Status:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="606.0" layoutY="147.0" text="Country:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="country" layoutX="739.0" layoutY="150.0" prefHeight="46.0" prefWidth="261.0" />
+                  <Label layoutX="662.0" layoutY="412.0" text="E.Status:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="364.0" layoutY="410.0" text="Gender:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="dob" layoutX="738.0" layoutY="236.0" prefHeight="61.0" prefWidth="231.0" />
+                  <Label layoutX="25.0" layoutY="484.0" text="CNIC:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cnic" layoutX="126.0" layoutY="487.0" prefHeight="46.0" prefWidth="453.0" />
+                  <Button fx:id="editBtn" defaultButton="true" layoutX="652.0" layoutY="626.0" mnemonicParsing="false" onAction="#onEdit" prefHeight="47.0" prefWidth="149.0" text="Edit" />
+                  <Button cancelButton="true" layoutX="813.0" layoutY="626.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="47.0" prefWidth="149.0" text="Cancel" />
+                  <Label layoutX="604.0" layoutY="485.0" text="ZIP">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="zip" layoutX="683.0" layoutY="487.0" prefHeight="46.0" prefWidth="261.0" />
+                  <Label layoutX="30.0" layoutY="558.0" text="Passwd: ">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="passwdField" layoutX="199.0" layoutY="561.0" prefHeight="46.0" prefWidth="261.0" />
+                  <Label layoutX="511.0" layoutY="559.0" text="CUST_ID: ">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="custID" layoutX="680.0" layoutY="562.0" prefHeight="46.0" prefWidth="261.0" />
+                  <TextField fx:id="m_status" layoutX="161.0" layoutY="416.0" prefHeight="46.0" prefWidth="188.0" />
+                  <TextField fx:id="gender" layoutX="503.0" layoutY="416.0" prefHeight="46.0" prefWidth="145.0" />
+                  <TextField fx:id="e_status" layoutX="801.0" layoutY="416.0" prefHeight="46.0" prefWidth="159.0" />
+                  <Button layoutX="59.0" layoutY="650.0" mnemonicParsing="false" onAction="#onBack" prefHeight="25.0" prefWidth="128.0" text="Go back" />
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab fx:id="graphTab" onSelectionChanged="#onTabChange" text="Graphs">
+         <content>
+            <GridPane gridLinesVisible="true">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <PieChart fx:id="pieChart1" />
+                  <PieChart fx:id="pieChart2" GridPane.columnIndex="1" />
+                  <PieChart fx:id="pieChart3" GridPane.rowIndex="1" />
+                  <PieChart fx:id="pieChart4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

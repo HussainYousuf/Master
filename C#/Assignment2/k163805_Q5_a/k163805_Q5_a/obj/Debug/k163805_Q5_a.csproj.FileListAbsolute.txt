@@ -1,0 +1,9 @@
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe.config
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\bin\Debug\k163805_Q5_a.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.csprojResolveAssemblyReference.cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.ProjectInstaller.resources
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.csproj.GenerateResource.Cache
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.exe
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.pdb
+C:\Users\hussain\Documents\Visual Studio 2013\Assignment2\k163805_Q5_a\k163805_Q5_a\obj\Debug\k163805_Q5_a.k163805_Q5a.resources
