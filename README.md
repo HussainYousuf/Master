@@ -1,2 +1,1 @@
-# Master
-Projects which survived
+Some repos are private
